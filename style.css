@@ -30,21 +30,22 @@ body {
 #header {
 	position: relative;
 	z-index: 10;
-	color: rgb(255, 255, 255);
+	color: White;
 	/*padding-bottom: 5%; */
-	background: #282828;
-	font-family: "Times New Roman";
-}
+	background: #0b6ba8;
+	border-radius: 10px;
 
-#header div {
-	background: #ffffff;
+
+}
+#header .caml_link {
+	color: White;
 }
 
 #header div div {
-	border: 1px solid Black;
-	border-radius: 0px;
-	background: #efeeec;
-	color: #000000;
+	border: 1px solid White;
+	border-radius: 10px;
+
+	color: White;
 	margin: 5px;
 	padding: 5px;
 }
@@ -71,10 +72,6 @@ body {
 }
 /* ---------yassin ----------*/
 
-#main div {
-	min-height: 100%;
-	margin: 0 auto 60%;
-}
 
 /* ----------- /NICO ----------- */
 
@@ -82,6 +79,8 @@ body {
 	background: #efeeec;
 	position: relative; 
 	padding: 10px; 
+	text-align: center;
+	font-style: italic;
 }
 /* ----------/yassin ------------*/
 h1, h2, h3, h4, h5, h6 { 
@@ -90,12 +89,29 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: lighter;
 }
 
+#bottom a {
+	color: Yellow;
+	text-decoration: none;
+
+}
+#bottom {
+	border-radius: 0px 0px 10px 10px;
+}
+#main a {
+	color: Black;
+	text-decoration: none;
+	border: 1px solid black;
+	font-style: normal;
+	padding: 5px;
+	border-radius: 5px;
+
+
+}
+
 h1 { 
 	font-size: 30px;
 	display: block;
-	font-family: "Times New Roman", Times, arial;
 	background: #0b6ba8;
-	padding: 15px;
 }
 
 h2 { 
@@ -111,7 +127,6 @@ h2 {
 	font-size: 12px;
 	line-height: 1.5em;
 	text-align: left;
-	font-family: "Times New Roman", Times, arial;
 	background: #0b6ba8;
 	color: #fff;
 }
@@ -156,8 +171,11 @@ button {
     border-radius:2px;
 }
 button {
-    background-color:#96aa39;
-    border-bottom:1px solid #7b8b2f;
+    background-color:#9CCC65;
+
+    margin-bottom: 20px;
+    border-radius: 5px;
+
 }
 button:hover {
     background-color:#8ea134;
@@ -166,6 +184,10 @@ button:hover {
 button:active {
     background-color:#96aa39;
     border-bottom:1px solid #7b8b2f;
+}
+#main {
+	padding-bottom: 10%;
+
 }
 
 #ballot_tracker { 
