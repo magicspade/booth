@@ -11,7 +11,7 @@ body { line-height: 1; color: rgb(40, 40, 40); background: none repeat scroll 0%
 #main { background: none repeat scroll 0% 0% rgb(255, 255, 255); position: relative; border-radius: 10px; }
 #footer { position: relative; color: rgb(255, 255, 255); }
 h1, h2, h3, h4, h5, h6 { line-height: 1.4em; font-family: "Ubuntu",arial,serif; font-weight: lighter; }
-h1 { font-size: 50px; }
+h1 { font-size: 30px; }
 h2 { font-size: 28px; }
 #footer #bottom { position: relative; width: 100%; font-size: 12px; line-height: 80px; text-align: center; color: rgb(134, 134, 134); }
 
@@ -24,3 +24,9 @@ h2 { font-size: 28px; }
 button { cursor: pointer; }
 #footer #bottom { line-height: 1.5em; }
 #ballot_tracker { font-weight: bold; }
+
+
+/* Responsive field */
+@media screen and (max-width : 760px){
+
+}
