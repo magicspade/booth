@@ -71,7 +71,18 @@ button {
 }
 
 /* Responsive field */
-@media screen and (max-width : 960px){
+
+/* Ipad portrait */
+@media screen and (max-width : 768px){
     
 }
+/* Iphone landscape */
+@media screen and (max-width : 480px){
+    
+}
+/* Iphone portrait */
+@media screen and (max-width : 320px){
+    
+}
+
 
