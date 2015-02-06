@@ -69,15 +69,21 @@ body {
 #header a:link {
 	text-decoration: none;
 }
+/* ---------yassin ----------*/
+
+#main div {
+	min-height: 100%;
+	margin: 0 auto 60%;
+}
 
 /* ----------- /NICO ----------- */
 
 #main { 
-	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	background: #efeeec;
 	position: relative; 
 	padding: 10px; 
 }
-
+/* ----------/yassin ------------*/
 h1, h2, h3, h4, h5, h6 { 
 	line-height: 1.4em; 
 	font-family: "Ubuntu",arial,serif; 
