@@ -32,12 +32,13 @@ body {
 	color: rgb(255, 255, 255);
 	/*padding-bottom: 5%; */
 
-
+/* yassin edited */
 #main { 
-	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	background: #efeeec;
 	position: relative; 
 	padding: 10px; 
 }
+/* end yassin edit */
 
 h1, h2, h3, h4, h5, h6 { 
 	line-height: 1.4em; 
