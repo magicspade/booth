@@ -105,8 +105,9 @@ h2 {
 #footer #bottom {
 	position: relative;
 	display: block;
-	padding-left: 10px;
-	width: 100%;
+	padding-left: 1%;
+
+	width: 99%;
 	font-size: 12px;
 	line-height: 1.5em;
 	text-align: left;
@@ -115,8 +116,56 @@ h2 {
 	color: #fff;
 }
 
-button { 
-	cursor: pointer; 
+button {
+    font-style:normal;
+    font-weight:normal;
+    color:#fff;
+    /*margin-right:10px;*/
+}
+button {
+    padding-right : 10px;
+    margin : 5px auto;
+    display : block;
+    vertical-align:baseline;
+}
+button {
+    font-style:normal;
+    font-weight:normal;
+    font-size:13px;
+    color:#fff;
+    vertical-align:baseline;
+}
+/*	--------------------------------------------------
+	:: Button Configuration
+	-------------------------------------------------- */
+button {
+    display:inline-block;
+    position:relative;
+    font-style:normal;
+    font-weight:normal;
+    font-family:arial;
+    margin:0 auto;
+    outline:none;
+    color:#fff;
+    border:none;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+button {
+    background-color:#96aa39;
+    border-bottom:1px solid #7b8b2f;
+}
+button:hover {
+    background-color:#8ea134;
+    border-bottom:1px solid #7b8b2f;
+}
+button:active {
+    background-color:#96aa39;
+    border-bottom:1px solid #7b8b2f;
 }
 
 #ballot_tracker { 
