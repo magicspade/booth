@@ -25,13 +25,20 @@ body {
 	border-radius: 10px;
 	min-height: 0px;
 }
-
+/* ----------- NICO ----------- */
 #header {
 	position: relative;
 	z-index: 10;
 	color: rgb(255, 255, 255);
 	padding-bottom: 5%; 
+	background: #ffffff
 }
+
+#header div {
+	background: #efeeec
+	color: #ffffff
+}
+/* ----------- /NICO ----------- */
 
 #main { 
 	background: none repeat scroll 0% 0% rgb(255, 255, 255);
