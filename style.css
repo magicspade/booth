@@ -5,26 +5,95 @@ body { line-height: 1; }
 
 /* ex Styled-Element */
 
-body { line-height: 1; color: rgb(40, 40, 40); background: none repeat scroll 0% 0% rgb(229, 228, 226); font-family: Arial,Helvetica,sans-serif; font-size: 100%; }
-#wrapper { width: 966px; margin: 30px auto; background: none repeat scroll 0% 0% rgb(54, 54, 54); min-height: 700px; font-size: 14px; line-height: 1.5em; border-radius: 10px; }
-#header { height: 200px; position: relative; z-index: 10; }
-#main { background: none repeat scroll 0% 0% rgb(255, 255, 255); position: relative; border-radius: 10px; }
-#footer { position: relative; color: rgb(255, 255, 255); }
-h1, h2, h3, h4, h5, h6 { line-height: 1.4em; font-family: "Ubuntu",arial,serif; font-weight: lighter; }
-h1 { font-size: 30px; }
-h2 { font-size: 28px; }
-#footer #bottom { position: relative; width: 100%; font-size: 12px; line-height: 80px; text-align: center; color: rgb(134, 134, 134); }
+body {
+	line-height: 1;
+	color: rgb(40, 40, 40);
+	background: none repeat scroll 0% 0% rgb(229, 228, 226);
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 100%; 
+}
+
+#wrapper { 
+	width: 80%;
+	margin: 30px auto;
+	background: none repeat scroll 0% 0% rgb(54, 54, 54);
+	min-height: 700px;
+	font-size: 14px;
+	line-height: 1.5em;
+	border-radius: 10px; 
+}
+
+#header { 
+	height: 200px;
+	position: relative;
+	z-index: 10; 
+}
+
+#main { 
+	background: none repeat scroll 0% 0% rgb(255, 255, 255); 
+	position: relative; 
+	border-radius: 10px; 
+}
+
+#footer { 
+	position: relative; 
+	color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	line-height: 1.4em; 
+	font-family: "Ubuntu",arial,serif; font-weight: lighter;
+}
+
+h1 { 
+	font-size: 30px;
+}
+
+h2 { 
+	font-size: 28px; 
+}
+
+#footer #bottom {
+	position: relative;
+	width: 100%;
+	font-size: 12px;
+	line-height: 80px;
+	text-align: center;
+	color: rgb(134, 134, 134);
+}
 
 /* ex Superfish: */
 
-#wrapper { min-height: 0px; font-size: 16px; }
-#header { color: rgb(255, 255, 255); height: 90px; }
-#main { border-radius: 0px; padding: 10px; }
-#footer #bottom { line-height: 3em; }
-button { cursor: pointer; }
-#footer #bottom { line-height: 1.5em; }
-#ballot_tracker { font-weight: bold; }
+#wrapper {
+	min-height: 0px;
+	font-size: 16px;
+}
 
+#header { 
+	color: rgb(255, 255, 255);
+	height: 90px; 
+}
+
+#main { 
+	border-radius: 0px; 
+	padding: 10px; 
+}
+
+#footer #bottom { 
+	line-height: 3em; 
+}
+
+button { 
+	cursor: pointer; 
+}
+
+#footer #bottom { 
+	line-height: 1.5em;
+}
+
+#ballot_tracker { 
+	font-weight: bold;
+}
 
 /* Responsive field */
 @media screen and (max-width : 760px){
