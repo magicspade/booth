@@ -31,13 +31,43 @@ body {
 	z-index: 10;
 	color: rgb(255, 255, 255);
 	padding-bottom: 5%; 
-	background: #ffffff
+	background: #282828;
 }
 
 #header div {
-	background: #efeeec
-	color: #ffffff
+	background: #ffffff;
 }
+
+#header div div {
+	border: 1px solid Black;
+	border-radius: 0px;
+	background: #efeeec;
+	color: #000000;
+	margin: 5px;
+	padding: 5px;
+}
+
+#header div div div {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header div div:nth-child(3) {
+    background: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#header a {
+	color: #000000;
+}
+
+#header a:link {
+	text-decoration: none;
+}
+
 /* ----------- /NICO ----------- */
 
 #main { 
