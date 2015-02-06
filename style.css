@@ -87,8 +87,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { 
 	font-size: 30px;
 	display: block;
-	font-family: "Times New Roman";
+	font-family: "Times New Roman", Times, arial;
 	background: #0b6ba8;
+	padding: 15px;
 }
 
 h2 { 
@@ -97,11 +98,15 @@ h2 {
 
 #footer #bottom {
 	position: relative;
+	display: block;
+	padding-left: 10px;
 	width: 100%;
 	font-size: 12px;
 	line-height: 1.5em;
-	text-align: center;
-	color: rgb(134, 134, 134);
+	text-align: left;
+	font-family: "Times New Roman", Times, arial;
+	background: #0b6ba8;
+	color: #fff;
 }
 
 button { 
